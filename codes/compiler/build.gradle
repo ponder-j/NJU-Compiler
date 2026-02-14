@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'antlr' // 【关键】必须引入 antlr 插件，它会自动添加 generateGrammarSource 任务
+}
+
+group = 'org.example' // 可以随便写
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral() // 告诉 Gradle 去中央仓库下载 jar 包
+}
+
+dependencies {
+    // 1. ANTLR 工具本身：用于编译 .g4 文件
+    antlr 'org.antlr:antlr4:4.13.1'
+
+    // 2. ANTLR 运行时库：生成的 Java 代码运行时需要依赖它
+    // 注意：这里的版本号最好和上面保持一致
+    implementation 'org.antlr:antlr4-runtime:4.13.1'
+
+    // 截图里还有 guava 和 junit，如果你需要也可以加上
+    implementation 'com.google.guava:guava:32.1.2-jre'
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+// 【可选配置】配置生成的代码是否包含 visitor 或 listener
+generateGrammarSource {
+    maxHeapSize = "64m"
+    // 下面这行决定生成 Visitor 模式的代码（很多编译原理课程会用到 Visitor）
+    arguments += ['-package', 'simpleexpr', '-visitor', '-no-listener']
+    // 注意：'-package', 'simpleexpr' 是为了给生成的 Java 文件加上 package 声明，
+    // 如果你的 .g4 文件里没有 @header { package simpleexpr; } 这种写法，可以去掉这个参数。
+}
+
+// 消除警告的现代写法：使用 configureEach
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec).configureEach {
+    jvmArgs '-Dfile.encoding=UTF-8'
+}
