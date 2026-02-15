@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Lesson 10 中间代码-LLVM"
             }
+          },
+          {
+            "id": "0f73ac438fd20b46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lesson 11 中间代码的翻译.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lesson 11 中间代码的翻译"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 237.5
   },
   "right": {
     "id": "1f043a180e021208",
@@ -174,17 +189,23 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "b25362204b5f0c41",
+  "active": "0f73ac438fd20b46",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260215105638.png",
+    "attachments/Pasted image 20260215104129.png",
+    "attachments/Pasted image 20260215103532.png",
+    "Lesson 10 中间代码-LLVM.md",
+    "Lesson 11 中间代码的翻译.md",
+    "Lesson 9 语义分析-属性文法.md",
     "attachments/Pasted image 20260215015849.png",
     "attachments/Pasted image 20260215015234.png",
     "attachments/Pasted image 20260215014924.png",
@@ -193,12 +214,7 @@
     "attachments/Pasted image 20260215011618.png",
     "attachments/Pasted image 20260215011016.png",
     "attachments/Pasted image 20260215010544.png",
-    "attachments/Pasted image 20260215001207.png",
-    "attachments/Pasted image 20260214233100.png",
-    "attachments/Pasted image 20260214182615.png",
     "Lesson 8 语义分析-符号表.md",
-    "Lesson 10 中间代码-LLVM.md",
-    "Lesson 9 语义分析-属性文法.md",
     "Lesson 7 语法分析-ALLstar.md",
     "Lesson 6 构建语法分析树.md",
     "Lesson 0 Overview.md",
