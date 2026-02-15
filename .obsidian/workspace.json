@@ -90,7 +90,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "搜索"
+              "title": "Search"
             }
           },
           {
@@ -214,8 +214,12 @@
   },
   "active": "ee43b64626c7244f",
   "lastOpenFiles": [
-    "Lesson 11 中间代码的翻译(I).md",
+    "attachments/Pasted image 20260215135534.png",
     "Lesson 12 中间代码的翻译(II).md",
+    "attachments/Pasted image 20260215135646.png",
+    "Lesson 11 中间代码的翻译(I).md",
+    "Lesson 9 语义分析-属性文法.md",
+    "Lesson 10 中间代码-LLVM.md",
     "attachments/Pasted image 20260215111927.png",
     "attachments/Pasted image 20260215111747.png",
     "attachments/Pasted image 20260215111658.png",
@@ -224,10 +228,6 @@
     "attachments/Pasted image 20260215105638.png",
     "attachments/Pasted image 20260215104129.png",
     "attachments/Pasted image 20260215103532.png",
-    "Lesson 10 中间代码-LLVM.md",
-    "Lesson 9 语义分析-属性文法.md",
-    "attachments/Pasted image 20260215015849.png",
-    "attachments/Pasted image 20260215015234.png",
     "Lesson 8 语义分析-符号表.md",
     "Lesson 7 语法分析-ALLstar.md",
     "Lesson 6 构建语法分析树.md",
