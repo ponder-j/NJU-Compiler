@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b25362204b5f0c41",
+            "id": "aa9503cb9fb1e8bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson 10 中间代码-LLVM.md",
+                "file": "Lesson 13 目标代码生成(RISC-V).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 10 中间代码-LLVM"
-            }
-          },
-          {
-            "id": "0f73ac438fd20b46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lesson 11 中间代码的翻译(I).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lesson 11 中间代码的翻译(I)"
-            }
-          },
-          {
-            "id": "ee43b64626c7244f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lesson 12 中间代码的翻译(II).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lesson 12 中间代码的翻译(II)"
+              "title": "Lesson 13 目标代码生成(RISC-V)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -90,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -107,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 300
   },
   "right": {
     "id": "1f043a180e021208",
@@ -203,33 +174,35 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
     }
   },
-  "active": "ee43b64626c7244f",
+  "active": "aa9503cb9fb1e8bb",
   "lastOpenFiles": [
+    "Lesson 12 中间代码的翻译(IV)-backpatch.md",
+    "Lesson 13 目标代码生成(RISC-V).md",
+    "Lesson 12 中间代码的翻译(III)-hard.md",
+    "Lesson 12 中间代码的翻译(II)-easy.md",
+    "Lesson 11 中间代码的翻译(I).md",
+    "attachments/Pasted image 20260216182452.png",
+    "Lesson 10 中间代码-LLVM.md",
     "attachments/Pasted image 20260215141715.png",
     "attachments/Pasted image 20260215141549.png",
     "attachments/Pasted image 20260215141342.png",
     "attachments/Pasted image 20260215140827.png",
-    "attachments/Pasted image 20260215140212.png",
-    "Lesson 12 中间代码的翻译(II).md",
     "attachments/Pasted image 20260215140241.png",
-    "attachments/Pasted image 20260215135534.png",
     "attachments/Pasted image 20260215135646.png",
-    "Lesson 11 中间代码的翻译(I).md",
-    "Lesson 9 语义分析-属性文法.md",
-    "Lesson 10 中间代码-LLVM.md",
     "attachments/Pasted image 20260215111927.png",
     "attachments/Pasted image 20260215111747.png",
     "attachments/Pasted image 20260215111658.png",
     "Lesson 8 语义分析-符号表.md",
+    "Lesson 9 语义分析-属性文法.md",
     "Lesson 7 语法分析-ALLstar.md",
     "Lesson 6 构建语法分析树.md",
     "Lesson 0 Overview.md",
