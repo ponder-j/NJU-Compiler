@@ -25,3 +25,5 @@ jalr zero 0(ra) # jalr: jump and link register(offset) (link: rd <- pc+4)
 堆栈
 sp：stack pointer
 栈从高地址向低地址生长
+
+![[Pasted image 20260217200228.png]]
