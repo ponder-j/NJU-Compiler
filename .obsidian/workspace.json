@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0f73ac438fd20b46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lesson 13 目标代码生成(RISC-V).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lesson 13 目标代码生成(RISC-V)"
-            }
-          },
-          {
             "id": "818aa7e253cfcb32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson 13 目标代码生成(RISC-V).md",
+                "file": "Lesson 1 词法分析器（使用 antlr4 自动生成）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 13 目标代码生成(RISC-V)"
+              "title": "Lesson 1 词法分析器（使用 antlr4 自动生成）"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,6 +185,7 @@
   },
   "active": "818aa7e253cfcb32",
   "lastOpenFiles": [
+    "Lesson 13 目标代码生成(RISC-V).md",
     "Lesson 12 中间代码的翻译(IV)-backpatch.md",
     "Lesson 12 中间代码的翻译(III)-hard.md",
     "Lesson 12 中间代码的翻译(II)-easy.md",
@@ -218,7 +204,6 @@
     "attachments/Pasted image 20260217200228.png",
     "Lesson 12 中间代码的翻译(II).md",
     "attachments/Pasted image 20260216182452.png",
-    "Lesson 13 目标代码生成(RISC-V).md",
     "attachments/Pasted image 20260215141715.png",
     "attachments/Pasted image 20260215141549.png",
     "attachments/Pasted image 20260215141342.png",
