@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lesson 1 词法分析器（使用 antlr4 自动生成）.md",
+                "file": "Lesson 6 构建语法分析树.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson 1 词法分析器（使用 antlr4 自动生成）"
+              "title": "Lesson 6 构建语法分析树"
             }
           }
         ]
@@ -185,6 +185,12 @@
   },
   "active": "818aa7e253cfcb32",
   "lastOpenFiles": [
+    "Lesson 5 语法分析器-CFG.md",
+    "Lesson 4 语法分析器-Antlr.md",
+    "Lesson 3 自动机.md",
+    "Lesson 2 词法分析器（手写一个）.md",
+    "Lesson 1 词法分析器（使用 antlr4 自动生成）.md",
+    "Lesson 0 Overview.md",
     "Lesson 13 目标代码生成(RISC-V).md",
     "Lesson 12 中间代码的翻译(IV)-backpatch.md",
     "Lesson 12 中间代码的翻译(III)-hard.md",
@@ -195,12 +201,6 @@
     "Lesson 8 语义分析-符号表.md",
     "Lesson 7 语法分析-ALLstar.md",
     "Lesson 6 构建语法分析树.md",
-    "Lesson 5 语法分析器-CFG.md",
-    "Lesson 4 语法分析器-Antlr.md",
-    "Lesson 3 自动机.md",
-    "Lesson 2 词法分析器（手写一个）.md",
-    "Lesson 1 词法分析器（使用 antlr4 自动生成）.md",
-    "Lesson 0 Overview.md",
     "attachments/Pasted image 20260217200228.png",
     "Lesson 12 中间代码的翻译(II).md",
     "attachments/Pasted image 20260216182452.png",
